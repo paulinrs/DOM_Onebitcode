@@ -17,7 +17,7 @@
   ├── O DOM nos permite ler elementos específicos no documento HTML                
 
   ├── Obter vários elementos em uma HTMLCollection         # `document.getElementsByTagName()`
-                                                           # `document.getElementsByClassName`
+                                                           # `document.getElementsByClassName()`
 
   ├── Obter vários elementos em uma NodeList               # `document.getElementsByName()`
                                                            # `document.querySelectorAll()`                                         
