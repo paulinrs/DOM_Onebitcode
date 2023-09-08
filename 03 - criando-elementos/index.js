@@ -1,5 +1,5 @@
 function addInput(){
-    const ul = document.getElementById('inputs')
+    const ol = document.getElementById('inputs')
     //input Nome
     const newLi = document.createElement('li')
     newLi.className = 'list-item'
@@ -19,6 +19,6 @@ function addInput(){
     newLi.appendChild(newInput)
     newLi2.appendChild(newInput2)
     
-    ul.appendChild(newLi)//nome
-    ul.appendChild(newLi2)//senha
+    ol.appendChild(newLi)//nome
+    ol.appendChild(newLi2)//senha
 }
