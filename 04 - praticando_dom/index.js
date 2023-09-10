@@ -45,4 +45,16 @@ function addContact() {
     ul.appendChild(document.createElement('br'))
 
     contactSection.append(h3, ul)
+
+}
+
+function removeContact() {
+    const contactSection = document.getElementById('contacts-list')
+
+    const titles = document.getElementsByTagName('h3')
+    const user = document.getElementsByTagName('ul')
+
+    contactSection.removeChild(titles [titles.length - 1])
+    contactSection.removeChild(user [user.length - 1])
+
 }
